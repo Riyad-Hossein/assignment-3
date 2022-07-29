@@ -32,3 +32,12 @@ h1{
     padding: 7%;
 }
 .footer-social-icon a{text-decoration: none;}
+
+/* media query */
+@media screen and (min-width: 992px){
+    .couse-heading{width: 50%}
+    .faq-heading{width: 60%;}
+    .accordion{width: 75%;}
+    .join-course-content{flex-direction: row !important;justify-content: space-between !important;}
+    .join-course-content h4, .join-course-content p{text-align: left !important;}
+}
