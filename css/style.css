@@ -22,6 +22,9 @@ h1{
     margin-bottom: 7%;
 
 } 
-#faq-section{
+#faq-section, #partner-section{
     padding-bottom: 10%;
+}
+#partner-section img{
+    width: 16%;
 }
