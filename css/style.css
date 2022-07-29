@@ -14,6 +14,7 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#carouselExampleControls{padding: 12% 0;}
 #course-section{
     padding: 7%;
 }
@@ -33,9 +34,18 @@ h1{
 }
 .footer-social-icon a{text-decoration: none;}
 
-/* media query */
+/* media query for mobile device */
+@media screen and (max-width: 576px){
+    .carousel-title{font-size: 20px !important;}
+    .carousel-text{font-size: 13px !important;margin-top: 10px !important;}
+    .carousel-content button{margin-top: 0px !important;}
+    .course{flex-direction: column !important;}
+    .course img{width: 100% !important;}
+}
+
+/* media query for desktop */
 @media screen and (min-width: 992px){
-    .couse-heading{width: 50%}
+    .carousel-content , .couse-heading{width: 50% !important}
     .faq-heading{width: 60%;}
     .accordion{width: 75%;}
     .join-course-content{flex-direction: row !important;justify-content: space-between !important;}
