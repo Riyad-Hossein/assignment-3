@@ -28,3 +28,7 @@ h1{
 #partner-section img{
     width: 16%;
 }
+#footer-section{
+    padding: 7%;
+}
+.footer-social-icon a{text-decoration: none;}
