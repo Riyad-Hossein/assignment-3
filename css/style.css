@@ -2,10 +2,23 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
 .ls-2{
     letter-spacing: 2px;
 }
+/* banner section */
+#banner-section{
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#course-section{
+    padding: 7%;
+}
+#join-course{
+    padding: 7%;
+    margin-bottom: 7%;
 
-/* .banner-title{
-    font-family: 'Montserrat', sans-serif;
-} */
+}
